@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Process Modeler 6 SR1 for Microsoft Visio (http://www.itp-commerce.com)-->
+<definitions targetNamespace="http://www.trisotech.com/definitions/_a4c47e3e-f20b-4677-a854-a51220fb53f7" xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:itp="http://www.itp-commerce.com/BPMN2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL schemas/BPMN20.xsd" exporter="Process Modeler 6 for Microsoft Visio" exporterVersion="6.2769.13758 SR1" name="BPMN In Color Sample" itp:creationDate="26.11.2014 17:35:38" itp:modificationDate="26.11.2014 17:38:27" itp:createdWithVersion="6.2769.13758 SR1" itp:conformanceSubClass="Full" id="_54daf565-ab8f-495b-affa-1c2271e9ceb4" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color/1.0">
+  <process id="_1e131ed9-d102-4ba3-a315-d324759c4680" name="Untitled Diagram" processType="None" itp:isMainProcess="true">
+    <startEvent id="_78b4da98-f775-430d-8e2e-2981e0e0fb5d" name="Green Fill">
+      <outgoing>_703bc99e-e861-4841-9883-977244bf69a3</outgoing>
+    </startEvent>
+    <task id="_8324e067-f1a4-436f-9c23-a7bad3abd80a" name="Orange Border">
+      <incoming>_703bc99e-e861-4841-9883-977244bf69a3</incoming>
+      <outgoing>_098c851c-37a9-4d3a-bf43-c91fb856f056</outgoing>
+    </task>
+    <endEvent id="_a369eaa0-cff1-40af-8417-17ceb08c1ee8" name="Red Font">
+      <incoming>_82e55eb0-f279-48e2-bbda-1f2617613586</incoming>
+    </endEvent>
+    <task id="_228e45d8-ece8-42a3-b11c-89695e468954" name="Pink Fill&#xD;&#xA;Green Border&#xD;&#xA;Blue Font">
+      <incoming>_098c851c-37a9-4d3a-bf43-c91fb856f056</incoming>
+      <outgoing>_e3aaaf68-3efa-47ff-b668-d4b06ed5ba92</outgoing>
+    </task>
+    <task id="_893e9069-78f0-4d90-a663-194aefed6a7f" name="No Color">
+      <incoming>_e3aaaf68-3efa-47ff-b668-d4b06ed5ba92</incoming>
+      <outgoing>_82e55eb0-f279-48e2-bbda-1f2617613586</outgoing>
+    </task>
+    <sequenceFlow id="_703bc99e-e861-4841-9883-977244bf69a3" sourceRef="_78b4da98-f775-430d-8e2e-2981e0e0fb5d" targetRef="_8324e067-f1a4-436f-9c23-a7bad3abd80a">
+    </sequenceFlow>
+    <sequenceFlow id="_098c851c-37a9-4d3a-bf43-c91fb856f056" name="Orange link" sourceRef="_8324e067-f1a4-436f-9c23-a7bad3abd80a" targetRef="_228e45d8-ece8-42a3-b11c-89695e468954">
+    </sequenceFlow>
+    <sequenceFlow id="_82e55eb0-f279-48e2-bbda-1f2617613586" name="No Color" sourceRef="_893e9069-78f0-4d90-a663-194aefed6a7f" targetRef="_a369eaa0-cff1-40af-8417-17ceb08c1ee8">
+    </sequenceFlow>
+    <sequenceFlow id="_e3aaaf68-3efa-47ff-b668-d4b06ed5ba92" name="No color" sourceRef="_228e45d8-ece8-42a3-b11c-89695e468954" targetRef="_893e9069-78f0-4d90-a663-194aefed6a7f">
+    </sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram name="Untitled Diagram" resolution="72">
+    <bpmndi:BPMNPlane id="_1" bpmnElement="_1e131ed9-d102-4ba3-a315-d324759c4680">
+      <bpmndi:BPMNShape id="_D30BCA2E-75DE-4784-8D2E-A6C2B15E595A" bpmnElement="_78b4da98-f775-430d-8e2e-2981e0e0fb5d" itp:label="Green Fill" itp:elementType="startEvent" color:background-color="#008000" color:border-color="#000000">
+        <dc:Bounds x="153" y="161.653577952756" width="31.999974803149609" height="31.999974803149609" />
+        <bpmndi:BPMNLabel labelStyle="_697baf9b-1dcc-47b2-8137-6447b3f2d0dc" color:color="#000000">
+          <dc:Bounds x="150.84" y="204.675590551181" width="36.72" height="9.36" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_235F8279-052F-40D1-912D-2A2141A8168F" bpmnElement="_8324e067-f1a4-436f-9c23-a7bad3abd80a" itp:label="Orange Border" itp:elementType="task" color:background-color="#FFFFFF" color:border-color="#FF6600">
+        <dc:Bounds x="229.9999748031496" y="139.65356692913395" width="95.999981102362213" height="75.9999968503937" />
+        <bpmndi:BPMNLabel labelStyle="_697baf9b-1dcc-47b2-8137-6447b3f2d0dc" color:color="#000000">
+          <dc:Bounds x="250.2" y="173.715590551181" width="55.44" height="7.92" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_9FAD2693-1324-4683-878A-B1D594C35AB8" bpmnElement="_a369eaa0-cff1-40af-8417-17ceb08c1ee8" itp:label="Red Font" itp:elementType="endEvent" color:background-color="#FFFFFF" color:border-color="#000000">
+        <dc:Bounds x="788.00001732283465" y="159.65357952755915" width="35.999971653543305" height="35.999971653543305" />
+        <bpmndi:BPMNLabel labelStyle="_697baf9b-1dcc-47b2-8137-6447b3f2d0dc" color:color="#FF0000">
+          <dc:Bounds x="788.04" y="206.835590551181" width="35.28" height="9.36" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_3E072DB2-568E-45BD-8EB7-CCD60E8EFBF0" bpmnElement="_228e45d8-ece8-42a3-b11c-89695e468954" itp:label="Pink Fill&#xD;&#xA;Green Border&#xD;&#xA;Blue Font" itp:elementType="task" color:background-color="#FF00FF" color:border-color="#00FF00">
+        <dc:Bounds x="415.99998425196856" y="139.65356692913395" width="95.999981102362213" height="75.9999968503937" />
+        <bpmndi:BPMNLabel labelStyle="_697baf9b-1dcc-47b2-8137-6447b3f2d0dc" color:color="#3366FF">
+          <dc:Bounds x="438.48" y="165.795590551181" width="50.4" height="23.76" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_3EF53A2A-8EDF-4893-8FA2-C6CCE736BB5A" bpmnElement="_893e9069-78f0-4d90-a663-194aefed6a7f" itp:label="No Color" itp:elementType="task" color:background-color="#FFFFFF" color:border-color="#000000">
+        <dc:Bounds x="601.99999370078751" y="139.65356692913395" width="95.999981102362213" height="75.9999968503937" />
+        <bpmndi:BPMNLabel labelStyle="_697baf9b-1dcc-47b2-8137-6447b3f2d0dc" color:color="#000000">
+          <dc:Bounds x="633.24" y="173.715590551181" width="33.84" height="7.92" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="_A100AE2C-49F6-4ABF-9D82-E835B648753B" bpmnElement="_703bc99e-e861-4841-9883-977244bf69a3" itp:label="(unnamed)" itp:elementType="sequenceFlow" color:border-color="#000000">
+        <di:waypoint x="183.99996850393703" y="177.65356535433079" />
+        <di:waypoint x="229.99997480314963" y="177.65356535433079" />
+        <bpmndi:BPMNLabel labelStyle="_697baf9b-1dcc-47b2-8137-6447b3f2d0dc" color:color="#000000">
+          <dc:Bounds x="203.4" y="161.835590551181" width="7.92" height="17.28" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="_EA2DD705-17DA-4044-8F6D-A860B1EECC09" bpmnElement="_098c851c-37a9-4d3a-bf43-c91fb856f056" itp:label="Orange link" itp:elementType="sequenceFlow" color:border-color="#FF6600">
+        <di:waypoint x="324.99997795275596" y="177.65356535433079" />
+        <di:waypoint x="416.9999905511811" y="177.65356535433079" />
+        <bpmndi:BPMNLabel labelStyle="_697baf9b-1dcc-47b2-8137-6447b3f2d0dc" color:color="#000000">
+          <dc:Bounds x="349.92" y="183.795590551181" width="43.2" height="9.36" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="_45A5EE4F-7AFF-4342-917F-A68CE9D6DCCB" bpmnElement="_82e55eb0-f279-48e2-bbda-1f2617613586" itp:label="No Color" itp:elementType="sequenceFlow" color:border-color="#000000">
+        <di:waypoint x="696.999968503937" y="177.65356535433079" />
+        <di:waypoint x="788.00000314960641" y="177.65356535433079" />
+        <bpmndi:BPMNLabel labelStyle="_697baf9b-1dcc-47b2-8137-6447b3f2d0dc" color:color="#000000">
+          <dc:Bounds x="726.12" y="183.795590551181" width="33.84" height="9.36" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="_038C0403-D1BE-49D3-AD2D-9E2002F85EE3" bpmnElement="_e3aaaf68-3efa-47ff-b668-d4b06ed5ba92" itp:label="No color" itp:elementType="sequenceFlow" color:border-color="#000000">
+        <di:waypoint x="510.99995905511815" y="177.65356535433079" />
+        <di:waypoint x="603" y="177.65356535433079" />
+        <bpmndi:BPMNLabel labelStyle="_697baf9b-1dcc-47b2-8137-6447b3f2d0dc" color:color="#000000">
+          <dc:Bounds x="541.44" y="183.795590551181" width="31.68" height="9.36" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+    <bpmndi:BPMNLabelStyle id="_697baf9b-1dcc-47b2-8137-6447b3f2d0dc">
+      <dc:Font name="Arial" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" />
+    </bpmndi:BPMNLabelStyle>
+  </bpmndi:BPMNDiagram>
+</definitions>
