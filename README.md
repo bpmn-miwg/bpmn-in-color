@@ -14,6 +14,6 @@ Tools that implement the specification include:
 
 - Itesoft BPMN+ Composer
 - itp-commerce Process Modeler for Microsoft Visio
+- KnowProcess
 - Trisotech BPMN Modeler
 - Trisotech BPMN Visio Add in
-
