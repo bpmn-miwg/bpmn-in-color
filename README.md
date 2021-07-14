@@ -18,6 +18,7 @@ Tools that implement the specification include:
 - Trisotech BPMN Modeler
 - Trisotech BPMN Visio Add in
 - Software AG - ARIS
-- bpmn-js
+- [bpmn.io](https://bpmn.io/)
+- [Camunda Modeler](https://camunda.com/modeler)
 
 [Add a tool by creating a pull request.](https://github.com/bpmn-miwg/bpmn-in-color/edit/master/README.md)
