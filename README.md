@@ -4,9 +4,9 @@ The BPMN in Color Specification has been adopted by the members of the [OMG BPMN
 
 This repository contains the following files:
 
-- [The specification](BPMN in COLOR.pdf)
-- [The XSD schema](BPMN in Color.xsd)
-- [A sample BPMN file with colors](BPMN In Color Sample.bpmn)
+- [The specification](./BPMN%20in%20COLOR.pdf)
+- [The XSD schema](./BPMN%20in%20Color.xsd)
+- [A sample BPMN file with colors](./BPMN%20In%20Color%20Sample.bpmn)
 
 ## Implementers
 
