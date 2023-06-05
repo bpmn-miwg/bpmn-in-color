@@ -21,5 +21,6 @@ Tools that implement the specification include:
 - [bpmn.io](https://bpmn.io/)
 - [Camunda Modeler](https://camunda.com/modeler)
 - [Cawemo](https://cawemo.com/)
+- [bpmn-visualization](https://github.com/process-analytics/bpmn-visualization-js)
 
 [Add a tool by creating a pull request.](https://github.com/bpmn-miwg/bpmn-in-color/edit/master/README.md)
